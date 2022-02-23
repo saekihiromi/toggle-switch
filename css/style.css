@@ -1,0 +1,20 @@
+.btn-wrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin: 2em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn.active{
+    background-color: red;
+}
